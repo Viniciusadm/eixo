@@ -1,0 +1,18 @@
+# Export pessoal do Google Maps Timeline. Contém o histórico real de
+# localização de quem roda o projeto e nunca deve ser versionado.
+/timeline.json
+*.timeline.json
+
+# Banco e caches derivados do export, igualmente pessoais.
+/backend/data/
+
+.env
+.DS_Store
+
+*.db
+*.db-shm
+*.db-wal
+places-cache.json
+target/
+node_modules/
+dist/
